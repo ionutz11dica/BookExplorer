@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_Shelf"
+            android:title="@string/menu_books_shelf"
+            android:icon="@drawable/ic_books" />
+
+        <item android:id="@+id/menu_booksMark"
+            android:title="@string/menu_bookmarks"
+            android:icon="@drawable/ic_bookmark"/>
+
+        <item android:id="@+id/menu_myshleft"
+            android:title="My shelf"
+            android:icon="@drawable/ic_myshelf"/>
+    </group>
+
+    <item android:title="Finder">
+        <menu>
+            <item android:id="@+id/menu_Locations"
+                android:icon="@drawable/ic_location"
+                android:title="Find Library"/>
+
+            <item android:id="@+id/menu_add"
+                android:icon="@drawable/ic_book_add"
+                android:title="Add Books" />
+
+            <item android:id="@+id/menu_Scan"
+                android:icon="@drawable/ic_scan"
+                android:title="Scan ISBN"/>
+        </menu>
+    </item>
+
+    <item android:title="Profile">
+        <menu>
+            <item android:id="@+id/menu_setting"
+                android:title="Settings"
+            android:icon="@drawable/ic_settings"/>
+            <item android:id="@+id/menu_about"
+                android:title="About"
+                android:icon="@drawable/ic_about"/>
+        </menu>
+    </item>
+</menu>
